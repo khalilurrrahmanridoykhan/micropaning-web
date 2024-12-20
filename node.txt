@@ -1,0 +1,5 @@
+I need a website, the requirements are:
+1. form Create like: I must create some input text field type. The admin can select the type of input fields and create the form.
+2. Then The User can do CRUD operations.
+3. I need micro planing, such as allowing the admin to select the area from the map, for the area who need to work the user.
+can I do it with django?

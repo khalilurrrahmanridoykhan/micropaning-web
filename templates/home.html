@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Django Site{% endblock %}
+
+{% block content %}
+   <div class="container">
+       <div class="jumbotron text-center">
+           <h1 class="display-4">Welcome to My Site</h1>
+           <p class="lead">This is the home page of my awesome Django site.</p>
+           <hr class="my-4">
+           <p>Explore the features and enjoy your stay!</p>
+           <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+       </div>
+       <div class="row">
+           <div class="col-md-4">
+               <h2>Feature 1</h2>
+               <p>Details about feature 1.</p>
+               <a class="btn btn-secondary" href="#" role="button">View details »</a>
+           </div>
+           <div class="col-md-4">
+               <h2>Feature 2</h2>
+               <p>Details about feature 2.</p>
+               <a class="btn btn-secondary" href="#" role="button">View details »</a>
+           </div>
+           <div class="col-md-4">
+               <h2>Feature 3</h2>
+               <p>Details about feature 3.</p>
+               <a class="btn btn-secondary" href="#" role="button">View details »</a>
+           </div>
+       </div>
+   </div>
+{% endblock %}
